@@ -1,0 +1,24 @@
+/         FILE PARAMETERS
+id      = NSO type 6 FTS data file     
+day     = 29/09/2023        / Acquisition date 
+wstart  = 0.0              / First wavenumber / point in file
+wstop   = 1137967.0         / Last wavenumber / point in file
+npo     = 1137968                / Number of points in file
+data_is = Real                 / Data ARE Real or Complex
+delw    = 1                 / Dispersion (1/cm / point)
+resolutn= 0.1               / Spectral resolution (1/cm)
+fboffs  = 0                     / File byte offset
+bocode  = 0                     / Data byte order: 0=little endian; 1=big endian
+xaxis_is= Index                 / Wavenumber, Wavelength, Index, Other
+/         SCAN PARAMETERS
+alias   = 1               / Alias
+fdr     = 4.0                 / Samples per laser fringe (fringe div. ratio)
+drivevel= 2000.0                / Carriage velocity in fringes / sec
+refwavno= 15798.0131            / Laser wavenumber (1/cm)
+fclock  = 1              / Sampling clock frequency (Hz)
+sampfreq= 1            / Sampling frequency (Hz)
+/         TRANSFORM PARAMETERS
+nint    = 1137968                / Number of pts in interferogram
+ntrans  = 2097152               / Transform size (2**N)
+freespec= 31596.0262          / Free spectral range (1/cm)
+END
